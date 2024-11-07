@@ -1,0 +1,12 @@
+.square-button{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    font-size: calc(2rem + 2vw);
+    font-weight: bold;
+    color: white;
+    background-color: rgba(173, 66, 173, 0.674);
+}
+
+.square-button[button-value='']:hover {
+    background-color: rgba(131, 62, 168, 0.75);
+}

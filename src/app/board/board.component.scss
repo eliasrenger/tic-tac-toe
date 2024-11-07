@@ -1,0 +1,32 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, max(50px, 25%));
+    width: min(90vw, 700px);
+    grid-gap: 10px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+app-square {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: rgb(156, 50, 156);
+}
+
+.new-game {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.new-game-button {
+    width: max(60%, 100px);
+    font-size: calc(2rem + 2vw);
+    font-weight: bold;
+    color: white;
+    background-color: rgba(70, 12, 70, 0.674);
+}
+
+.new-game-button:hover {
+    background-color: rgba(70, 12, 70, 0.9);
+}
